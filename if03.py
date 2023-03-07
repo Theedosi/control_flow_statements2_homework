@@ -8,4 +8,16 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return
+    max = a
+    if b>max:
+        max = b
+    if c>max:
+        max = c
+    min = a
+    if b<min:
+        min = b
+    if c<min :
+        min = c
+    return (a+b+c)-(min+max)
+    
+print(main(2,3,4))
