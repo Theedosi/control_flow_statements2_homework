@@ -19,15 +19,15 @@ def main(n):
    
     if a4>max:
         max=a4
-        s-=1
+        s = 4
     if a3>max:
         max=a3
-        s-=1
+        s=3
     if a2>max:
         max=a2
-        s-=1
+        s=2
     if a1>max:
         max=a1
-        s-=1
+        s=1
     return s
-print(main(46514))
+print(main(46517))
