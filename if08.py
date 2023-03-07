@@ -15,16 +15,16 @@ def main(number):
         str: return answer.
     """
     if number==1:
-        "Monday"
+        return "Monday"
     if number==2:
-        "Tuesday"
+        return "Tuesday"
     if number==3:
-        "Wednesday"
+        return "Wednesday"
     if number==4:
-        "Thursday"
+        return "Thursday"
     if number==5:
-        "Friday"
+        return "Friday"
     if number==6:
-        "Saturday"
+        return "Saturday"
     if number==7:
-        "Sunday"
+        return "Sunday"
