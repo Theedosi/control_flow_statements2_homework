@@ -14,14 +14,14 @@ def main(temp):
         str: return answer.
     """
     if temp<0:
-        "Freezing"
+        return "Freezing"
     if temp>0 and temp<=10:
-        "Very Cold"
+        return "Very Cold"
     if temp>=11 and temp<=20:
-        "Cold"
+        return "Cold"
     if temp>=21 and temp<=30:
-        "Normal"
+        return "Normal"
     if temp>=31 and temp<=40:
-         "Hot"
+         return "Hot"
     if temp>40:
-        "Very Hot"
+        return "Very Hot"
